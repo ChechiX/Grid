@@ -62,3 +62,13 @@ h1, h2 {
 .grid-1 {
   display: grid;
 }
+
+/* 02 */
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 300px 300px 300px; /* Column de izquierda a derecha */
+}
+.grid-2 .box:nth-child(2) {
+  grid-column: 1 / 2;
+}
