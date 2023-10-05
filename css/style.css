@@ -103,3 +103,14 @@ h1, h2 {
   display: grid;
   grid: repeat(2, 300px) / repeat(3, 300px); /* Rows / Columns */
 }
+
+/* 06 */
+
+.grid-6 {
+  display: grid;
+  grid: repeat(2, 300px) / repeat(3, 300px); /* Rows / Columns */
+  grid-auto-flow: dense;
+}
+.grid-6 .box:nth-child(2) {
+  grid-column: 1 / 2;
+}
