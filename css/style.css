@@ -114,3 +114,11 @@ h1, h2 {
 .grid-6 .box:nth-child(2) {
   grid-column: 1 / 2;
 }
+
+/* 07 */
+
+.grid-7 {
+  display: grid;
+  /* grid-template-columns: 2fr repeat(2, 1fr); */
+  grid: repeat(2, 50rem) / repeat(3, 1fr);
+}
