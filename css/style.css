@@ -122,3 +122,14 @@ h1, h2 {
   /* grid-template-columns: 2fr repeat(2, 1fr); */
   grid: repeat(2, 50rem) / repeat(3, 1fr);
 }
+
+/* 08 */
+
+.grid-8 {
+  display: grid;
+  grid: repeat(2, 20rem) / repeat(3, 1fr);
+  gap: 4rem; /* Row y Column */
+}
+.grid-8 .box {
+  margin: 0;
+}
